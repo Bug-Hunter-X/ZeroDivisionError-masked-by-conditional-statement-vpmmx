@@ -1,0 +1,3 @@
+# ZeroDivisionError masked by conditional statement
+
+This code demonstrates an uncommon error: a ZeroDivisionError masked by an if statement. The error only occurs when 'a' is 0, resulting in a division by zero.  The error is not immediately obvious because of the conditional check. This scenario is subtle and may be harder to detect during testing unless specifically testing the edge case where 'a' is 0.  The solution shows how to handle this case gracefully, preventing the runtime error.
